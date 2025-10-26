@@ -12,7 +12,6 @@ export default function ProductBackpacking({ primary = '#006D77', accent = '#E29
 
   return (
     <main>
-      {/* Hero */}
       <section className="relative">
         <div className="relative h-[56vh] min-h-[420px] w-full overflow-hidden">
           <img
@@ -35,7 +34,6 @@ export default function ProductBackpacking({ primary = '#006D77', accent = '#E29
         </div>
       </section>
 
-      {/* Overview */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-2 gap-10 items-start">
           <div>
@@ -55,7 +53,6 @@ export default function ProductBackpacking({ primary = '#006D77', accent = '#E29
         </div>
       </section>
 
-      {/* Price & Inclusions */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
         <div className="grid md:grid-cols-3 gap-6">
           <div className="rounded-2xl border border-slate-200 p-6 shadow-sm">
@@ -83,7 +80,6 @@ export default function ProductBackpacking({ primary = '#006D77', accent = '#E29
         </div>
       </section>
 
-      {/* Itinerary */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
         <h2 className="text-2xl font-semibold" style={{ color: primary }}>Itinerary</h2>
         <div className="mt-4">
@@ -91,7 +87,6 @@ export default function ProductBackpacking({ primary = '#006D77', accent = '#E29
         </div>
       </section>
 
-      {/* Booking & Cancellation */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24">
         <h2 className="text-2xl font-semibold" style={{ color: primary }}>Booking & Cancellation</h2>
         <div className="mt-4">
@@ -114,7 +109,6 @@ export default function ProductBackpacking({ primary = '#006D77', accent = '#E29
         </div>
       </section>
 
-      {/* Sticky CTA mobile */}
       <section className="fixed md:hidden bottom-4 inset-x-4 z-40">
         <a href="#contact" className="w-full block text-center px-5 py-3 rounded-full text-white font-medium shadow-lg" style={{ backgroundColor: accent }}>
           Book Now
